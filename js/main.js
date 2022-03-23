@@ -1,5 +1,6 @@
 $(function () {
     $(".tab-icon-left").on("click", function () {
+        console.log('check');
         let targetNum;
         $.each($(".imgBox"), function(_, item){
             if(item.classList.length == 2){
